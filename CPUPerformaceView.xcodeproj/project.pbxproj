@@ -15,6 +15,8 @@
 		9F04A5142657A7A00068F532 /* CPUPerformaceViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F04A5132657A7A00068F532 /* CPUPerformaceViewTests.m */; };
 		9F04A51F2657A7A00068F532 /* CPUPerformaceViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F04A51E2657A7A00068F532 /* CPUPerformaceViewUITests.m */; };
 		9F04A52D2657A7C20068F532 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F04A52C2657A7C20068F532 /* .gitignore */; };
+		9FB608072657C47C004E7BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB608052657C47C004E7BEE /* LaunchScreen.storyboard */; };
+		9FB6080A2657C485004E7BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB608082657C485004E7BEE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		9F04A51E2657A7A00068F532 /* CPUPerformaceViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUPerformaceViewUITests.m; sourceTree = "<group>"; };
 		9F04A5202657A7A00068F532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F04A52C2657A7C20068F532 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9FB608062657C47C004E7BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FB608092657C485004E7BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		9F04A4F92657A79F0068F532 /* CPUPerformaceView */ = {
 			isa = PBXGroup;
 			children = (
+				9FB608012657C424004E7BEE /* Base.lproj */,
 				9F04A4FA2657A79F0068F532 /* AppDelegate.h */,
 				9F04A4FB2657A79F0068F532 /* AppDelegate.m */,
 				9F04A5002657A79F0068F532 /* Main.storyboard */,
@@ -128,6 +133,16 @@
 				9F04A5202657A7A00068F532 /* Info.plist */,
 			);
 			path = CPUPerformaceViewUITests;
+			sourceTree = "<group>";
+		};
+		9FB608012657C424004E7BEE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9FB608052657C47C004E7BEE /* LaunchScreen.storyboard */,
+				9FB608082657C485004E7BEE /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = "New Group/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +251,8 @@
 				9F04A52D2657A7C20068F532 /* .gitignore in Resources */,
 				9F04A5072657A7A00068F532 /* LaunchScreen.storyboard in Resources */,
 				9F04A5042657A7A00068F532 /* Assets.xcassets in Resources */,
+				9FB6080A2657C485004E7BEE /* Main.storyboard in Resources */,
+				9FB608072657C47C004E7BEE /* LaunchScreen.storyboard in Resources */,
 				9F04A5022657A79F0068F532 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +329,22 @@
 				9F04A5062657A7A00068F532 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9FB608052657C47C004E7BEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB608062657C47C004E7BEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9FB608082657C485004E7BEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB608092657C485004E7BEE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
