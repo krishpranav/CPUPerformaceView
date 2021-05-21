@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "CPUPerformanceView"
+#import "CPUPerformanceMonitoring/CPUPerformanceView.h"
 
 @interface AppDelegate ()
 

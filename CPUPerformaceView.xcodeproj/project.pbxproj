@@ -17,6 +17,7 @@
 		9F04A52D2657A7C20068F532 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F04A52C2657A7C20068F532 /* .gitignore */; };
 		9FB608072657C47C004E7BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB608052657C47C004E7BEE /* LaunchScreen.storyboard */; };
 		9FB6080A2657C485004E7BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB608082657C485004E7BEE /* Main.storyboard */; };
+		9FB6080F2657C650004E7BEE /* CPUPerformanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB6080E2657C650004E7BEE /* CPUPerformanceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9F04A52C2657A7C20068F532 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9FB608062657C47C004E7BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB608092657C485004E7BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		9FB6080D2657C5A3004E7BEE /* CPUPerformanceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUPerformanceView.h; sourceTree = "<group>"; };
+		9FB6080E2657C650004E7BEE /* CPUPerformanceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUPerformanceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 		9F04A4F92657A79F0068F532 /* CPUPerformaceView */ = {
 			isa = PBXGroup;
 			children = (
+				9FB6080C2657C56F004E7BEE /* CPUPerformanceMonitoring */,
 				9FB608012657C424004E7BEE /* Base.lproj */,
 				9F04A4FA2657A79F0068F532 /* AppDelegate.h */,
 				9F04A4FB2657A79F0068F532 /* AppDelegate.m */,
@@ -143,6 +147,15 @@
 			);
 			name = Base.lproj;
 			path = "New Group/Base.lproj";
+			sourceTree = "<group>";
+		};
+		9FB6080C2657C56F004E7BEE /* CPUPerformanceMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				9FB6080D2657C5A3004E7BEE /* CPUPerformanceView.h */,
+				9FB6080E2657C650004E7BEE /* CPUPerformanceView.m */,
+			);
+			path = CPUPerformanceMonitoring;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F04A50A2657A7A00068F532 /* main.m in Sources */,
+				9FB6080F2657C650004E7BEE /* CPUPerformanceView.m in Sources */,
 				9F04A4FC2657A79F0068F532 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
