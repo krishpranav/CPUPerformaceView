@@ -14,7 +14,7 @@
 #import "GDMarginLabel.h"
 #import "CPUWindowViewController.h"
 
-@interface GDPerformanceView ()
+@interface CPUPerformanceView()
 
 @property (nonatomic, strong) CADisplayLink *displayLink;
 
@@ -30,4 +30,14 @@
 
 @end
 
+@implementation CPUPerformanceView
 
+#pragma mark -
+#pragma mark - Init Methods & Superclass Overriders
+
+- (instancetype)init {
+    self = [super initWithFrame: [GDPerforma]]
+}
+
+
+@end

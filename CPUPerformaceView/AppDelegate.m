@@ -1,14 +1,6 @@
-//
-//  AppDelegate.m
-//  CPUPerformaceView
-//
-//  Created by Elangovan Ayyasamy on 21/05/21.
-//  Copyright © 2021 Krisna Pranav. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
-#import "CPUPerformanceMonitoring/CPUPerformanceView.h"
+#import "GDPerformanceMonitor.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +12,8 @@
     // Override point for customization after application launch.
     
 #ifdef DEBUG
-    [[CPUPerformanceMonitor sharedInstance] startMonitoring];
-    [[CPUPerformanceMonitor sharedInstance] configureWithConfiguration:^(UILabel *textLabel) {
+    [[GDPerformanceMonitor sharedInstance] startMonitoring];
+    [[GDPerformanceMonitor sharedInstance] configureWithConfiguration:^(UILabel *textLabel) {
         [textLabel setBackgroundColor:[UIColor blackColor]];
         [textLabel setTextColor:[UIColor whiteColor]];
         [textLabel.layer setBorderColor:[[UIColor blackColor] CGColor]];
@@ -53,7 +45,7 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     
 #ifdef DEBUG
-    [[CPUPerformanceMonitor sharedInstance] stopMonitoring];
+    [[GDPerformanceMonitor sharedInstance] stopMonitoring];
 #endif
     
 }
